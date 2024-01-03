@@ -183,7 +183,7 @@ img{
     line-height: 1.5;
     cursor: pointer;
     min-width: 169px;
-    height: 56px;
+    min-height: 56px;
     border-radius: 4px;
     border: none;
     display: block;
@@ -580,6 +580,9 @@ img{
     color: #FFFFFF;
 }
 
+.button-form{
+    margin-bottom: 24px;
+}
 /* Custom checkbox*/
 
 .form-accept:checked + .checkbox-accept{
