@@ -579,3 +579,45 @@ img{
 .modal-form .button {
     color: #FFFFFF;
 }
+
+/* Custom checkbox*/
+
+.form-accept:checked + .checkbox-accept{
+    background-color: #404BBF;
+    border-color: #404BBF;
+}
+
+.form-accept:checked + .checkbox-accept > .checkbox-icon{
+    opacity: 1;
+}
+.form-label-accept{
+    display: block;
+    margin-bottom: 24px;
+
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    
+    color: #8E8F99;
+}
+
+.checkbox-accept{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 16px;
+    height: 16px;
+
+    border: 1px solid #2E2F4266;
+    border-radius: 2px;
+}
+
+.checkbox-icon{
+    opacity: 0;
+}
+
+.checkbox-link{
+    color: #4D5AE5;
+    text-decoration-line: underline;
+}
