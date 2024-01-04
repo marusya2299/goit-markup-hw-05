@@ -383,7 +383,7 @@
     <!-- Фінальна частина -->
     <footer class="final-section">
         <div class="container flex-container-footer">
-                <div class="footer-element">
+                <div class="footer-element foot-logo">
                     <!-- Лого-->
                     <a class="final-logo" href="./index.html">Web<span class="accent">Studio</span></a>
                     <p class="text">
@@ -431,10 +431,13 @@
                     <p class="text-medium">Subscribe</p>
 
                     <form name="subscribe">
-                        <input class="subscribe-input" type="email" value="email">
-                        <button class="button" type="submit">
+                        <label for="">
+                            <input class="subscribe-input" type="email" placeholder="E-mail">
+                        </label>
+                       
+                        <button class="subscribe-button" type="submit">
                             Subscribe
-                            <svg class="button subscribe-button" width="24px" height="20px">
+                            <svg class="subscribe-icon" width="24px" height="20px">
                                 <use href="./images/icons.svg#icon-send"></use>
                             </svg>
                         </button>
@@ -445,7 +448,7 @@
 </footer>
 
 <!-- Модальне вікно -->
-<div class="window">
+<div class="window is-open">
     <div class="modal">
         <button class="modal-btn" type="button">
             <svg class="window-icon" width="" height="">
