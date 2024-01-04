@@ -369,6 +369,19 @@ img{
     margin-bottom: 16px;
 }
 
+.subscribe{
+
+}
+
+.subscribe-input{
+
+}
+
+.subscribe-button{
+    min-width: 165px;
+    min-height: 40px;
+    padding: 8px, 24px, 8px, 24px;
+}
 /*Socials Links-Circles*/
 
 .socials{
