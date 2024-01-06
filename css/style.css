@@ -518,7 +518,7 @@ img{
     min-height: 584px;
 
     background-color: #FCFCFC;
-    box-shadow: зі значенням 0px 1px 1px rgba(0, 0, 0, 0.14), 
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 1px 3px rgba(0, 0, 0, 0.12), 
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -659,7 +659,7 @@ img{
 
 /* Custom checkbox*/
 
-.form-accept:checked .checkbox-accept{
+.form-accept:checked + .form-label-accept > .checkbox-accept{
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
@@ -688,6 +688,7 @@ img{
     border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .checkbox-link{
     color: #4D5AE5;
