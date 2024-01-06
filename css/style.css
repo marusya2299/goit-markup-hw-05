@@ -338,8 +338,12 @@ img{
     padding-bottom: 100px;
 }
 
-.footer-element{
-    margin-right: 50px;
+.footer-element-one{
+    margin-right: 120px;
+}
+
+.footer-element-two{
+    margin: auto;
 }
 
 .flex-container-footer{
@@ -375,9 +379,6 @@ img{
     gap: 24px;
 }
 
-.subscribe-label{
-
-}
 .subscribe-input{
     border: 1px solid #FFFFFF;
     border-radius: 4px;
@@ -420,7 +421,6 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
 }
 
 .subscribe-button:hover,
@@ -598,6 +598,7 @@ img{
     width: 100%;
     height: 40px;
 
+    font-size: 12px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     background-color: transparent;
     border-radius: 4px;
@@ -665,6 +666,10 @@ img{
     fill: #F4F4FD;
 }
 
+.form-accept:focus + .form-label-accept > .checkbox-accept {
+    border-color: #4D5AE5;
+}
+
 .form-label-accept{
     font-size: 12px;
     line-height: 1.17;
@@ -677,6 +682,7 @@ img{
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin-right: 8px;
 
     width: 16px;
     height: 16px;
