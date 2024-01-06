@@ -554,8 +554,9 @@ img{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     position: absolute;
+    top: 50%;
     left: 16px;
-    transform: translateY(100%);
+    transform: translateY(-50%);
 }
 
 .modal-btn:hover,
@@ -606,6 +607,9 @@ img{
     fill: #4D5AE5;
 }
 
+.window-icon .form-input:focus {
+    fill: #4D5AE5;
+}
 .form-label {
     display: block;
     margin-bottom: 4px;
@@ -630,17 +634,26 @@ img{
     border-color: #4D5AE5;
 }
 
-.form-text {
-    border: 1px solid #2E2F4266;
-    width: 100%;
-    min-height: 120px;
-    border-radius: 4px;
-    padding-left: 16px;
-    padding-top: 8px;
+.form-textarea{
     margin-bottom: 16px;
-    resize: none;
+}
 
-    outline: none;
+.form-text {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+
+    width: 100%;
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+
+    padding: 8px 16px;
+    resize: none;
+    outline: transparent;
+
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -654,6 +667,10 @@ img{
     text-align: left;
 
     color: #8E8F99;
+}
+
+.form-user-privacy{
+    margin-bottom: 24px;
 }
 
 .modal-form .button {
@@ -673,6 +690,7 @@ img{
 .form-accept:checked + .checkbox-accept > .checkbox-icon{
     opacity: 1;
 }
+
 .form-label-accept{
     display: block;
     margin-bottom: 24px;
@@ -693,11 +711,12 @@ img{
     width: 16px;
     height: 16px;
 
-    border: 1px solid #2E2F4266;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    fill: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
 }
 
